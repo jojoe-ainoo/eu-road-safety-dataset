@@ -1,0 +1,72 @@
+{
+    "licenses": [
+      {
+        "name": "EU-URSF-1.0",
+        "path": "https://en.wikipedia.org/wiki/Road_safety_in_Europe",
+        "title": "European Union Road Safety Facts and Figures"
+      }
+    ],
+    "name": "eu-road-safety",
+    "resources": [
+      {
+        "name": "road_safety",
+        "path": "road_safety.csv",
+        "schema": {
+          "fields": [
+            {
+              "description": "Country",
+              "name": "Country",
+              "type": "text"
+            },
+            {
+                "description": "Year",
+                "name": "Year",
+                "type": "text"
+              },
+            {
+              "description": "Area\n(thousands of km2",
+              "name": "Area\n(thousands of km2)[24]",
+              "type": "float"
+            },
+            {
+              "description": "Population in 2018",
+              "name": "Population in 2018[25]",
+              "type": "number"
+            },
+            {
+              "description": "GDP per capita in 2018",
+              "name": "GDP per capita in 2018[26]",
+              "type": "number"
+            },
+            {
+              "description": "Population density\n(inhabitants per km2) in 2017",
+              "name": "Population density\n(inhabitants per km2) in 2017[27]",
+              "type": "number"
+            },
+            {
+              "description": "Vehicle ownership\n(per thousand inhabitants) in 2016",
+              "name": "Vehicle ownership\n(per thousand inhabitants) in 2016[28]",
+              "type": "number"
+            },
+            {
+              "description": "Total Road Deaths in 2018",
+              "name": "Total Road Deaths in 2018[30]",
+              "type": "number"
+            },
+            {
+              "description": "Road deaths\nper Million Inhabitants in 2018",
+              "name": "Road deaths\nper Million Inhabitants in 2018[30]",
+              "type": "number"
+            }
+          ]
+        }
+      }
+    ],
+    "sources": [
+      {
+        "name": "Eurostat",
+        "path": "https://ec.europa.eu/eurostat",
+        "title": "Eurostat"
+      }
+    ]
+  }
