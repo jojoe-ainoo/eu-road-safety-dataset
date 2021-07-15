@@ -1,7 +1,7 @@
 This dataset presents euro statistics on European Union Road Safety
 
 
-# data
+# Data
 Data was retrived from https://en.wikipedia.org/wiki/Road_safety_in_Europe
 
 
